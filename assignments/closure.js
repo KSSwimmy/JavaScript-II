@@ -1,6 +1,16 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function kingdom() {
+  const queen = "Queen Ruby";
+  console.log(`Long live ${queen}`)
+  function city() {
+   
+   console.log(`The city says: Long live ${queen}`);
+}
+city();
+}
+kingdom();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
